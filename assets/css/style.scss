@@ -2857,7 +2857,7 @@ User Area CSS
           }
         }
       }
-      .form-group {
+      . {
         margin-bottom: 30px;
       }
       .login-action {
@@ -3700,12 +3700,12 @@ Checkout Area Style
             padding-left: 20px;
             padding-right: 20px;
             &:hover {
-              background-color: $main-color !important;
+              background-color: black !important;
               color: $white-color;
             }
           }
           .option.selected {
-            background-color: transparent;
+            background-color: black;
           }
         }
         &:after {
